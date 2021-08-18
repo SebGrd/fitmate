@@ -139,7 +139,7 @@ export default {
     padding: 0;
     margin: 0;
     &__category{
-      color: dodgerblue;
+      color: var(--primary);
       font-weight: 800;
       &__parts{
         list-style: none;

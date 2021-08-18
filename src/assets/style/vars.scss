@@ -1,0 +1,75 @@
+@import "element-variables";
+
+:root {
+  --color-white: #{$--color-white};
+  --color-black: #{$--color-black};
+  --color-primary: #{$--color-primary};
+  --color-primary-light-1: #{$--color-primary-light-1}; /* 53a8ff */
+  --color-primary-light-2: #{$--color-primary-light-2}; /* 66b1ff */
+  --color-primary-light-3: #{$--color-primary-light-3}; /* 79bbff */
+  --color-primary-light-4: #{$--color-primary-light-4}; /* 8cc5ff */
+  --color-primary-light-5: #{$--color-primary-light-5}; /* a0cfff */
+  --color-primary-light-6: #{$--color-primary-light-6}; /* b3d8ff */
+  --color-primary-light-7: #{$--color-primary-light-7}; /* c6e2ff */
+  --color-primary-light-8: #{$--color-primary-light-8}; /* d9ecff */
+  --color-primary-light-9: #{$--color-primary-light-9}; /* ecf5ff */
+  --color-success: #{$--color-success};
+  --color-success-light: #{$--color-success-light};
+  --color-success-lighter: #{$--color-success-lighter};
+  --color-warning: #{$--color-warning};
+  --color-warning-light: #{$--color-warning-light};
+  --color-warning-lighter: #{$--color-warning-lighter};
+  --color-info: #{$--color-info};
+  --color-info-light: #{$--color-info-light};
+  --color-info-lighter: #{$--color-info-lighter};
+  --color-danger: #{$--color-danger};
+  --color-danger-light: #{$--color-danger-light};
+  --color-danger-lighter: #{$--color-danger-lighter};
+  --color-text-primary: #{$--color-text-primary};
+  --color-text-regular: #{$--color-text-regular};
+  --color-text-secondary: #{$--color-text-secondary};
+  --color-text-placeholder: #{$--color-text-placeholder};
+  --border-color-base: #{$--border-color-base};
+  --border-color-light: #{$--border-color-light};
+  --border-color-lighter: #{$--border-color-lighter};
+  --border-color-extra-light: #{$--border-color-extra-light};
+  --background-color-base: #{$--background-color-base};
+}
+
+body.dark {
+  :root {
+    --color-white: #{$--color-black};
+    --color-black: #{$--color-white};
+    --color-primary: #{$--color-primary};
+    --color-primary-light-1: #{$--color-primary-light-1}; /* 53a8ff */
+    --color-primary-light-2: #{$--color-primary-light-2}; /* 66b1ff */
+    --color-primary-light-3: #{$--color-primary-light-3}; /* 79bbff */
+    --color-primary-light-4: #{$--color-primary-light-4}; /* 8cc5ff */
+    --color-primary-light-5: #{$--color-primary-light-5}; /* a0cfff */
+    --color-primary-light-6: #{$--color-primary-light-6}; /* b3d8ff */
+    --color-primary-light-7: #{$--color-primary-light-7}; /* c6e2ff */
+    --color-primary-light-8: #{$--color-primary-light-8}; /* d9ecff */
+    --color-primary-light-9: #{$--color-primary-light-9}; /* ecf5ff */
+    --color-success: #{$--color-success};
+    --color-success-light: #{$--color-success-light};
+    --color-success-lighter: #{$--color-success-lighter};
+    --color-warning: #{$--color-warning};
+    --color-warning-light: #{$--color-warning-light};
+    --color-warning-lighter: #{$--color-warning-lighter};
+    --color-info: #{$--color-info};
+    --color-info-light: #{$--color-info-light};
+    --color-info-lighter: #{$--color-info-lighter};
+    --color-danger: #{$--color-danger};
+    --color-danger-light: #{$--color-danger-light};
+    --color-danger-lighter: #{$--color-danger-lighter};
+    --color-text-primary: #{$--color-text-primary};
+    --color-text-regular: #{$--color-text-regular};
+    --color-text-secondary: #{$--color-text-secondary};
+    --color-text-placeholder: #{$--color-text-placeholder};
+    --border-color-base: #{$--border-color-base};
+    --border-color-light: #{$--border-color-light};
+    --border-color-lighter: #{$--border-color-lighter};
+    --border-color-extra-light: #{$--border-color-extra-light};
+    --background-color-base: #{$--background-color-base};
+  }
+}
